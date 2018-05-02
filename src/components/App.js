@@ -52,7 +52,7 @@ class App extends Component {
         <h1>The Playlist</h1>
         <div className="playlist-table-div">
 
-        <BootstrapTable className="playlist-table" data={ playlist }>
+        <BootstrapTable className="playlist-table" hover={true} data={ playlist }>
           <TableHeaderColumn dataField='title' isKey={ true }>Title</TableHeaderColumn>
           <TableHeaderColumn dataField='artist'>Artist</TableHeaderColumn>
           <TableHeaderColumn dataField='album'>Album</TableHeaderColumn>
