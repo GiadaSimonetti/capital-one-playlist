@@ -1,6 +1,6 @@
 **The Playlist**
 
-_*Introduction*_
+**_Introduction_**
 
 You have just been hired by the producer (=the interviewer =the product manager) of a new radio show.
 You have been given the following catalogue of music:
@@ -19,7 +19,7 @@ You have been given the following catalogue of music:
 
 The DJ is starting in an hour, and she needs to view a list of songs for a given year, in a browser.
 
-_*Requirements*_
+**_Requirements_**
 
 Each song in the list should contain the following information:
 - Title
