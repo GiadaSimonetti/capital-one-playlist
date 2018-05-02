@@ -1,4 +1,6 @@
-**The Playlist**
+# The Playlist
+
+## Task description
 
 **_Introduction_**
 
@@ -31,24 +33,39 @@ As time is tight, the aim is to deliver the minimum viable product which un-bloc
 
 Assume that you can give the DJ simple instructions on how to use the UI. You can use google or the interviewer for information as needed.
 
-## How should I run capital-one-playlist in my local?
+## Approach
+
+
+## instructions
+
+**Prerequisites**
+node installed
+
+- to run the web app
 
 ```sh
 $ git clone https://github.com/GiadaSimonetti/capital-one-playlist
 $ cd capital-one-playlist
 $ npm install
 $ npm start
-$ Go to localhost:3000
 ```
+Your browser should open on localhost:3000 if it didn't, go directly to localhost:3000.
 
-to run the tests:
+![web app](./images/web-app.png?raw=true)
+![web app](./images/web-app2.png?raw=true)
+
+- to run the tests:
 
 ```sh
 $ npm run test
+$ a
+$ u
 ```
 
-and to see the coverage:
+- to see the test coverage:
 
 ```sh
 $ npm run test -- --coverage
 ```
+
+![test-coverage](./images/test-coverage.png?raw=true)
