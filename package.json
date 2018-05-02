@@ -19,5 +19,12 @@
     "jest-cli": "^20.0.4",
     "react-dom": "^16.3.2",
     "react-renderer": "^0.1.4"
+  },
+  "jest":{
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/tempPolyfills.js"
+    ]
   }
 }
