@@ -45,6 +45,7 @@ ShallowWrapper {
                                         "nonEditableRows": undefined,
                                       }
                     }
+                    className="playlist-table"
                     columnFilter={false}
                     condensed={false}
                     containerClass={null}
@@ -111,7 +112,7 @@ ShallowWrapper {
                     headerContainerClass={null}
                     headerStyle={undefined}
                     height="100%"
-                    hover={false}
+                    hover={true}
                     ignoreSinglePage={false}
                     insertRow={false}
                     keyBoardNav={false}
@@ -382,7 +383,7 @@ ShallowWrapper {
                               expandable={true}
                               filter={
                                         Object {
-                                                  "delay": 1000,
+                                                  "delay": 0,
                                                   "type": "TextFilter",
                                                 }
                               }
@@ -453,6 +454,7 @@ ShallowWrapper {
                                     "nonEditableRows": undefined,
                                   }
             }
+            className="playlist-table"
             columnFilter={false}
             condensed={false}
             containerClass={null}
@@ -519,7 +521,7 @@ ShallowWrapper {
             headerContainerClass={null}
             headerStyle={undefined}
             height="100%"
-            hover={false}
+            hover={true}
             ignoreSinglePage={false}
             insertRow={false}
             keyBoardNav={false}
@@ -790,7 +792,7 @@ ShallowWrapper {
                         expandable={true}
                         filter={
                                     Object {
-                                                "delay": 1000,
+                                                "delay": 0,
                                                 "type": "TextFilter",
                                               }
                         }
@@ -981,7 +983,7 @@ ShallowWrapper {
                 expandable={true}
                 filter={
                                 Object {
-                                                "delay": 1000,
+                                                "delay": 0,
                                                 "type": "TextFilter",
                                               }
                 }
@@ -1009,6 +1011,7 @@ ShallowWrapper {
                 Year
 </TableHeaderColumn>,
             ],
+            "className": "playlist-table",
             "columnFilter": false,
             "condensed": false,
             "containerClass": null,
@@ -1069,7 +1072,7 @@ ShallowWrapper {
             "headerContainerClass": null,
             "headerStyle": undefined,
             "height": "100%",
-            "hover": false,
+            "hover": true,
             "ignoreSinglePage": false,
             "insertRow": false,
             "keyBoardNav": false,
@@ -1363,7 +1366,7 @@ ShallowWrapper {
                 "editable": true,
                 "expandable": true,
                 "filter": Object {
-                  "delay": 1000,
+                  "delay": 0,
                   "type": "TextFilter",
                 },
                 "filterFormatted": false,
@@ -1433,6 +1436,7 @@ ShallowWrapper {
                                                 "nonEditableRows": undefined,
                                               }
                         }
+                        className="playlist-table"
                         columnFilter={false}
                         condensed={false}
                         containerClass={null}
@@ -1499,7 +1503,7 @@ ShallowWrapper {
                         headerContainerClass={null}
                         headerStyle={undefined}
                         height="100%"
-                        hover={false}
+                        hover={true}
                         ignoreSinglePage={false}
                         insertRow={false}
                         keyBoardNav={false}
@@ -1770,7 +1774,7 @@ ShallowWrapper {
                                     expandable={true}
                                     filter={
                                                 Object {
-                                                            "delay": 1000,
+                                                            "delay": 0,
                                                             "type": "TextFilter",
                                                           }
                                     }
@@ -1841,6 +1845,7 @@ ShallowWrapper {
                                           "nonEditableRows": undefined,
                                         }
               }
+              className="playlist-table"
               columnFilter={false}
               condensed={false}
               containerClass={null}
@@ -1907,7 +1912,7 @@ ShallowWrapper {
               headerContainerClass={null}
               headerStyle={undefined}
               height="100%"
-              hover={false}
+              hover={true}
               ignoreSinglePage={false}
               insertRow={false}
               keyBoardNav={false}
@@ -2178,7 +2183,7 @@ ShallowWrapper {
                             expandable={true}
                             filter={
                                           Object {
-                                                        "delay": 1000,
+                                                        "delay": 0,
                                                         "type": "TextFilter",
                                                       }
                             }
@@ -2369,7 +2374,7 @@ ShallowWrapper {
                   expandable={true}
                   filter={
                                     Object {
-                                                      "delay": 1000,
+                                                      "delay": 0,
                                                       "type": "TextFilter",
                                                     }
                   }
@@ -2397,6 +2402,7 @@ ShallowWrapper {
                   Year
 </TableHeaderColumn>,
               ],
+              "className": "playlist-table",
               "columnFilter": false,
               "condensed": false,
               "containerClass": null,
@@ -2457,7 +2463,7 @@ ShallowWrapper {
               "headerContainerClass": null,
               "headerStyle": undefined,
               "height": "100%",
-              "hover": false,
+              "hover": true,
               "ignoreSinglePage": false,
               "insertRow": false,
               "keyBoardNav": false,
@@ -2751,7 +2757,7 @@ ShallowWrapper {
                   "editable": true,
                   "expandable": true,
                   "filter": Object {
-                    "delay": 1000,
+                    "delay": 0,
                     "type": "TextFilter",
                   },
                   "filterFormatted": false,
