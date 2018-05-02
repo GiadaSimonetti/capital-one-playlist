@@ -36,7 +36,7 @@ Assume that you can give the DJ simple instructions on how to use the UI. You ca
 ## Approach
 
 
-## instructions
+## Instructions
 
 **Prerequisites**
 node installed
