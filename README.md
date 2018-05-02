@@ -30,3 +30,25 @@ Each song in the list should contain the following information:
 As time is tight, the aim is to deliver the minimum viable product which un-blocks the DJ to play the songs.
 
 Assume that you can give the DJ simple instructions on how to use the UI. You can use google or the interviewer for information as needed.
+
+## How should I run capital-one-playlist in my local?
+
+```sh
+$ git clone https://github.com/GiadaSimonetti/capital-one-playlist
+$ cd capital-one-playlist
+$ npm install
+$ npm start
+$ Go to localhost:3000
+```
+
+to run the tests:
+
+```sh
+$ npm run test
+```
+
+and to see the coverage:
+
+```sh
+$ npm start
+```
