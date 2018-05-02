@@ -9,3 +9,7 @@ const app = shallow(<App />);
 it("renders correctly", () => {
   expect(app).toMatchSnapshot();
 });
+
+it("initializes the size in `state`", () => {
+    expect(app.state()).toEqual({ size: 6});
+  });
