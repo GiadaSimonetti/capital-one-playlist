@@ -30,7 +30,7 @@ const playlist = [
     title: "Another Day",
     artist: "Alison Moyet",
     album: "The Turn",
-    year: 2017
+    year: 2007
   },
   {
     title: "Face-off",
@@ -56,7 +56,7 @@ class App extends Component {
           <TableHeaderColumn dataField='title' isKey={ true }>Title</TableHeaderColumn>
           <TableHeaderColumn dataField='artist'>Artist</TableHeaderColumn>
           <TableHeaderColumn dataField='album'>Album</TableHeaderColumn>
-          <TableHeaderColumn dataField='year'>Year</TableHeaderColumn>
+          <TableHeaderColumn dataField='year' filter={ { type: 'TextFilter', delay: 1000 } }>Year</TableHeaderColumn>
       </BootstrapTable>
 
         </div>
