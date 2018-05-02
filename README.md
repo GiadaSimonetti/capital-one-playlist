@@ -50,5 +50,5 @@ $ npm run test
 and to see the coverage:
 
 ```sh
-$ npm start
+$ npm run test -- --coverage
 ```
