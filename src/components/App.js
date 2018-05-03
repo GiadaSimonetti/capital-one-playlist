@@ -56,7 +56,7 @@ class App extends Component {
           <TableHeaderColumn dataField='title' isKey={ true }>Title</TableHeaderColumn>
           <TableHeaderColumn dataField='artist'>Artist</TableHeaderColumn>
           <TableHeaderColumn dataField='album'>Album</TableHeaderColumn>
-          <TableHeaderColumn dataField='year' filter={ { type: 'TextFilter', delay: 0 } }>Year</TableHeaderColumn>
+          <TableHeaderColumn dataField='year' filter={ { type: 'TextFilter', delay: 0 } } className="year-filter">Year</TableHeaderColumn>
       </BootstrapTable>
 
         </div>

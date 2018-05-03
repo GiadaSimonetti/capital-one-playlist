@@ -366,7 +366,7 @@ ShallowWrapper {
                               Album
                     </TableHeaderColumn>
                     <TableHeaderColumn
-                              className=""
+                              className="year-filter"
                               columnClassName=""
                               columnTitle={false}
                               csvFieldType="string"
@@ -775,7 +775,7 @@ ShallowWrapper {
                         Album
             </TableHeaderColumn>
             <TableHeaderColumn
-                        className=""
+                        className="year-filter"
                         columnClassName=""
                         columnTitle={false}
                         csvFieldType="string"
@@ -966,7 +966,7 @@ ShallowWrapper {
                 Album
 </TableHeaderColumn>,
               <TableHeaderColumn
-                className=""
+                className="year-filter"
                 columnClassName=""
                 columnTitle={false}
                 csvFieldType="string"
@@ -1350,7 +1350,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "Year",
-                "className": "",
+                "className": "year-filter",
                 "columnClassName": "",
                 "columnTitle": false,
                 "csvFieldType": "string",
@@ -1757,7 +1757,7 @@ ShallowWrapper {
                                     Album
                         </TableHeaderColumn>
                         <TableHeaderColumn
-                                    className=""
+                                    className="year-filter"
                                     columnClassName=""
                                     columnTitle={false}
                                     csvFieldType="string"
@@ -2166,7 +2166,7 @@ ShallowWrapper {
                             Album
               </TableHeaderColumn>
               <TableHeaderColumn
-                            className=""
+                            className="year-filter"
                             columnClassName=""
                             columnTitle={false}
                             csvFieldType="string"
@@ -2357,7 +2357,7 @@ ShallowWrapper {
                   Album
 </TableHeaderColumn>,
                 <TableHeaderColumn
-                  className=""
+                  className="year-filter"
                   columnClassName=""
                   columnTitle={false}
                   csvFieldType="string"
@@ -2741,7 +2741,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "Year",
-                  "className": "",
+                  "className": "year-filter",
                   "columnClassName": "",
                   "columnTitle": false,
                   "csvFieldType": "string",

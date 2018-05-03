@@ -13,3 +13,9 @@ it("renders correctly", () => {
 it("initializes the size in `state`", () => {
     expect(app.state()).toEqual({ size: 6});
   });
+
+describe("table", () =>{
+  it('returns the number of `TableHeaderColumn`', function() {
+    expect(app.find(".playlist-table").children().length).toEqual(4)
+  });
+})
