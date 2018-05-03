@@ -15,7 +15,15 @@ it("initializes the size in `state`", () => {
   });
 
 describe("table", () =>{
-  it('returns the number of `TableHeaderColumn`', function() {
-    expect(app.find(".playlist-table").children().length).toEqual(4)
+  it("returns the number of `TableHeaderColumn`", () => {
+    expect(app.find(".playlist-table").children().length).toEqual(4);
   });
-})
+
+  it("checks the existence of `Title` column", () => {
+    expect(app.find(".title-field").exists()).toBe(true)
+  });
+
+  // it("checks the existence of `Title` column", () => {
+  //   expect(app.find(".title-field").exists()).toBe(true)
+  // });
+});

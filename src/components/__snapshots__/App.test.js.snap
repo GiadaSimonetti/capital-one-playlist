@@ -246,7 +246,7 @@ ShallowWrapper {
                     withoutTabIndex={false}
           >
                     <TableHeaderColumn
-                              className=""
+                              className="title-field"
                               columnClassName=""
                               columnTitle={false}
                               csvFieldType="string"
@@ -655,7 +655,7 @@ ShallowWrapper {
             withoutTabIndex={false}
 >
             <TableHeaderColumn
-                        className=""
+                        className="title-field"
                         columnClassName=""
                         columnTitle={false}
                         csvFieldType="string"
@@ -846,7 +846,7 @@ ShallowWrapper {
             },
             "children": Array [
               <TableHeaderColumn
-                className=""
+                className="title-field"
                 columnClassName=""
                 columnTitle={false}
                 csvFieldType="string"
@@ -1209,7 +1209,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "Title",
-                "className": "",
+                "className": "title-field",
                 "columnClassName": "",
                 "columnTitle": false,
                 "csvFieldType": "string",
@@ -1637,7 +1637,7 @@ ShallowWrapper {
                         withoutTabIndex={false}
             >
                         <TableHeaderColumn
-                                    className=""
+                                    className="title-field"
                                     columnClassName=""
                                     columnTitle={false}
                                     csvFieldType="string"
@@ -2046,7 +2046,7 @@ ShallowWrapper {
               withoutTabIndex={false}
 >
               <TableHeaderColumn
-                            className=""
+                            className="title-field"
                             columnClassName=""
                             columnTitle={false}
                             csvFieldType="string"
@@ -2237,7 +2237,7 @@ ShallowWrapper {
               },
               "children": Array [
                 <TableHeaderColumn
-                  className=""
+                  className="title-field"
                   columnClassName=""
                   columnTitle={false}
                   csvFieldType="string"
@@ -2600,7 +2600,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "Title",
-                  "className": "",
+                  "className": "title-field",
                   "columnClassName": "",
                   "columnTitle": false,
                   "csvFieldType": "string",

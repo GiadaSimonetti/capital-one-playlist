@@ -53,10 +53,10 @@ class App extends Component {
         <div className="playlist-table-div">
 
         <BootstrapTable className="playlist-table" hover={true} data={ playlist }>
-          <TableHeaderColumn dataField='title' isKey={ true }>Title</TableHeaderColumn>
-          <TableHeaderColumn dataField='artist'>Artist</TableHeaderColumn>
-          <TableHeaderColumn dataField='album'>Album</TableHeaderColumn>
-          <TableHeaderColumn dataField='year' filter={ { type: 'TextFilter', delay: 0 } } className="year-filter">Year</TableHeaderColumn>
+          <TableHeaderColumn dataField="title" isKey={ true } className="title-field">Title</TableHeaderColumn>
+          <TableHeaderColumn dataField="artist">Artist</TableHeaderColumn>
+          <TableHeaderColumn dataField="album">Album</TableHeaderColumn>
+          <TableHeaderColumn dataField="year" filter={ { type: "TextFilter", delay: 0 } } className="year-filter">Year</TableHeaderColumn>
       </BootstrapTable>
 
         </div>
