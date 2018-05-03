@@ -18,13 +18,13 @@ describe("table", () =>{
   it("returns the number of `TableHeaderColumn`", () => {
     expect(app.find(".playlist-table").children().length).toEqual(4);
   });
-  // 
-  // it("checks the existence of `Title` column", () => {
-  //   expect(app.find(".title-field").exists()).toBe(true)
-  // });
 
   it("checks the existence of `Title` column", () => {
-    expect(app.find(".title-field").props().children).toEqual("Title");
+    expect(app.find(".title-field").props().dataField).toEqual("title");
+  });
+
+  it("checks the existence of the filter in the `Year` column", () => {
+    expect(app.find(".year-filter").props().filter.type).toEqual("TextFilter");
   });
 
 });
