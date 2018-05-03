@@ -35,6 +35,8 @@ Assume that you can give the DJ simple instructions on how to use the UI. You ca
 
 ## Approach
 
+I decided to create a React app and use jest and enzyme to test the components. I used snapshots to test the render jsx as a whole. 
+
 
 ## Instructions
 
