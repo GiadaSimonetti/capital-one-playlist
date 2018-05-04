@@ -35,12 +35,12 @@ Assume that you can give the DJ simple instructions on how to use the UI. You ca
 
 ## Approach
 
-I decided to create a React app and use jest and enzyme to test the components. I used snapshots to test the render jsx as a whole. 
+I decided to create a React app and use jest and enzyme to test the components. I used snapshots to test the rendered jsx as a whole.
 
 
 ## Instructions
 
-**Prerequisites**
+Prerequisites
 node installed
 
 - to run the web app
@@ -51,7 +51,7 @@ $ cd capital-one-playlist
 $ npm install
 $ npm start
 ```
-Your browser should open on localhost:3000 if it didn't, go directly to localhost:3000.
+Your browser should open on localhost:3000, if it doesn't go directly to localhost:3000.
 
 ![web app](./images/web-app.png?raw=true)
 ![web app](./images/web-app2.png?raw=true)
