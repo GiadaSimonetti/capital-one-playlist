@@ -4,7 +4,30 @@ import setupTests from "./../setupTests.js";
 import tempPolyfills from "./../tempPolyfills";
 import App from "./App";
 
+jest.useFakeTimers();
+
 const app = shallow(<App />);
+
+const rockSong80 = {
+  title: "Devo",
+  artist: "Whip It",
+  album: "Freedom of Choice",
+  year: 1980
+};
+
+
+const rockSong90 = {
+  title: "What's up",
+  artist: "4 Non Blondes",
+  album: "Bigger, Better, Faster, More!",
+  year: 1992
+};
+
+const mockPlaylist = [
+  rockSong80,
+  rockSong90
+];
+
 
 it("renders correctly", () => {
   expect(app).toMatchSnapshot();
@@ -31,4 +54,8 @@ describe("table", () =>{
   it("should check the existence of the filter in the `Year` column", () => {
     expect(app.find(".year-filter").props().filter.type).toEqual("TextFilter");
   });
+});
+
+describe("Filter", () =>{
+
 });
