@@ -2,9 +2,8 @@ import React from "react";
 import { shallow } from "enzyme";
 import setupTests from "./../setupTests.js";
 import tempPolyfills from "./../tempPolyfills";
+import TestRenderer from "react-test-renderer";
 import App from "./App";
-
-jest.useFakeTimers();
 
 const app = shallow(<App />);
 
@@ -54,8 +53,33 @@ describe("table", () =>{
   it("should check the existence of the filter in the `Year` column", () => {
     expect(app.find(".year-filter").props().filter.type).toEqual("TextFilter");
   });
+
 });
 
 describe("Filter", () =>{
 
+  jest.useFakeTimers();
+
+  // const renderedApp = mount(<App playlist={ mockPlaylist } />);
+  const renderedApp = shallow(<App playlist={ mockPlaylist } />);
+
+  it("should display all the songs in the playlist initially", () => {
+      expect(renderedApp.find('td').contains(rockSong80.title)).toBe(true);
+      expect(renderedApp.find('td').contains(rockSong90.title)).toBe(true);
+  });
+
+  beforeEach(() => {
+    app.find(".btn-remove").simulate("click");
+  });
+
+//   test('plays video', () => {
+//   const spy = jest.spyOn(video, 'play');
+//   const isPlaying = video.play();
+//
+//   expect(spy).toHaveBeenCalled();
+//   expect(isPlaying).toBe(true);
+//
+//   spy.mockReset();
+//   spy.mockRestore();
+// });
 });
